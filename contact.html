@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Flood Detector</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Flood Detector</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="solution.html">Solution</a>
+        <a href="ussd.html">USSD Alerts</a>
+        <a href="impact.html">Impact</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1 class="section-title">Contact Us</h1>
+    <p class="lead">Ready to partner with us? Fill the form or email us at <a href="mailto:info@flooddetector.example">info@flooddetector.example</a>.</p>
+
+    <form id="contactForm" class="contact-form" onsubmit="return submitContact(event)">
+      <label>
+        Name
+        <input type="text" id="name" required>
+      </label>
+      <label>
+        Email
+        <input type="email" id="email" required>
+      </label>
+      <label>
+        Message
+        <textarea id="message" rows="6" required></textarea>
+      </label>
+      <div class="form-actions">
+        <button type="submit" class="btn solid">Partner with us</button>
+      </div>
+      <div id="formFeedback" class="form-feedback" role="status" aria-live="polite"></div>
+    </form>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><strong>Flood Detector</strong></div>
+      <div class="footer-links"><a href="index.html">Home</a></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

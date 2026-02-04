@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>USSD Alerts — Flood Detector</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Flood Detector</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="solution.html">Solution</a>
+        <a href="ussd.html">USSD Alerts</a>
+        <a href="impact.html">Impact</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1 class="section-title">Alerts That Work Without Internet</h1>
+    <div class="split">
+      <div>
+        <h3>Why USSD?</h3>
+        <ul>
+          <li>Works on any phone</li>
+          <li>Fast & reliable</li>
+          <li>Ideal for rural and low-connectivity areas</li>
+        </ul>
+        <p>We use USSD menus and SMS to reach both communities and local teams quickly.</p>
+      </div>
+      <div>
+        <div class="phone-mock">
+          <div class="phone-screen">
+            <div class="ussd-line">Dial: *123*45#</div>
+            <div class="ussd-menu" id="ussdMenu">
+              <div class="menu-item">1. Check Alerts</div>
+              <div class="menu-item">2. Subscribe to Alerts</div>
+              <div class="menu-item">3. Emergency Contact</div>
+            </div>
+            <div class="menu-actions">
+              <button onclick="simulateMenu()">Simulate Menu</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><strong>Flood Detector</strong></div>
+      <div class="footer-links"><a href="index.html">Home</a> <a href="contact.html">Contact</a></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
